@@ -3,7 +3,7 @@
 	"description":"",
 	"license":"MIT",
 	"homepage":"http://www.wunan.online",
-	"keywords":"",
+	"keywords":["iwunan"],
 	"authors":[
 	   {
 		"name":"spexial Nan",
@@ -12,7 +12,7 @@
 	   }
 	],
 	"support":{
-		"wunan9531@gmail.com"
+		"email":"wunan9531@gmail.com"
 	},
 	"autoload":{
 		"psr-4":{

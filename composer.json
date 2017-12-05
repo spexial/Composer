@@ -1,8 +1,22 @@
 {
-	"name":"spexial/",
+	"name":"spexial/iwunan",
 	"description":"",
 	"license":"MIT",
 	"homepage":"http://www.wunan.online",
 	"keywords":"",
-	"authors":[],
+	"authors":[
+	   {
+		"name":"spexial Nan",
+		"homepage":"http://www.wunan.online",
+		"role":"Developer"	
+	   }
+	],
+	"support":{
+		"wunan9531@gmail.com"
+	},
+	"autoload":{
+		"psr-4":{
+			"spexial\\iwunan\\":"src/"
+		}
+	}
 }

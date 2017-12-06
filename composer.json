@@ -16,7 +16,7 @@
 	},
 	"autoload":{
 		"psr-4":{
-			"spexial\\iwunan\\":"src/"
+			"Spexial\\Iwunan\\":"src/"
 		}
 	}
 }

@@ -1,4 +1,4 @@
 # Composer
 Composer Demo
 
-composer require spexial/iwunan
+composer require "spexial/iwunan:dev-master"

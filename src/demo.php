@@ -5,6 +5,6 @@ class Demo
 {
 	public function index()
 	{
-		echo "psr4";
+		return  "this is psr4-load";
 	}
 }

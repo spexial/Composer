@@ -5,6 +5,6 @@ class Demo
 {
 	public function index()
 	{
-		return  "this is psr4-load";
+		return  "This is psr4-load";
 	}
 }

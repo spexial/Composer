@@ -16,7 +16,8 @@ class CleanFile
                 closedir($dh);
             }
         }
-        $b = DB::table('data')->lists('path');
+        $db =  new DB();
+        $b = $db->table('data')->select('path');
         foreach($a as $key => $value) {
             if(!in_array($value,$b)) {
                 unlink($dir.$value);

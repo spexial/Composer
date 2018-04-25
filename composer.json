@@ -19,5 +19,8 @@
 		"psr-4":{
 			"Spexial\\Iwunan\\":"src/"
 		}
-	}
+	},
+	"classmap":[
+		"Demo2.php"
+	]
 }

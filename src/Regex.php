@@ -19,4 +19,14 @@ class Regex
             return false;
         }
     }
+    /**
+     * 替换空格
+     * @param $name
+     * @return mixed
+     */
+    public function replaceTheSpace($name)
+    {
+        $result = str_replace('/\ /','',$name);
+        return $result;
+    }
 }

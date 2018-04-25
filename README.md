@@ -1,3 +1,3 @@
 # Composer
 
-composer require "spexial/iwunan":"v1.2"
+composer require "spexial/iwunan":"v1.3"

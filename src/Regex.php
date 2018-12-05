@@ -29,4 +29,44 @@ class Regex
         $result = str_replace('/\ /','',$name);
         return $result;
     }
+
+    /**
+     * 大写小写加数字
+     * @param string $data
+     * @return bool|int
+     */
+    public function pwd($data = '')
+    {
+        if (empty($data)) {
+            return false;
+        }
+
+        return preg_match( '/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{8,16}$/', $data);
+    }
+
+    /**
+     * 校验是否是email
+     * @param string $data
+     * @return bool|int
+     */
+    public function email($data = '')
+    {
+        if (empty($data)) {
+            return false;
+        }
+        return preg_match('#^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$#i', $data);
+    }
+
+    /**
+     * 校验是否是url
+     * @param string $data
+     * @return bool|int
+     */
+    public function url($data = '')
+    {
+        if (empty($data)) {
+            return false;
+        }
+        return preg_match('#^(http|https)://([A-Z0-9][A-Z0-9_-]*(?:.[A-Z0-9][A-Z0-9_-]*)+):?(d+)?/?#i', $data);
+    }
 }
